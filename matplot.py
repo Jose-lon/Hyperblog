@@ -10,7 +10,7 @@ def generate_pie_chart(labels, values):
     ax.pie(values, labels=labels)
     ax.axis("equal")
     plt.show()
-
+#plt.savefig("pie.png")
 if __name__ == "__main__":
     labels =["a","b","c"]
     values= [10,40,800]

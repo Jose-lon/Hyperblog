@@ -27,3 +27,4 @@ def generate_pie_chart(labels, values):
     ax.axis("equal")
     plt.show()
 generate_pie_chart(names, total)
+print({"Nicolas","miguel","Nicolas"})
