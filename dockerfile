@@ -1,10 +1,10 @@
-FROM python:3.8
+FROM python:3.10.6
 
 WORKDIR /Proyectos-Python
 COPY requirements.txt /Proyectos-Python/requirements.txt
 
-RUN pip install --no-cache-dir --upgrade -r /Proyectos-Python/requirements.txt
+RUN pip3 install --no-cache-dir --upgrade -r /Proyectos-Python/requirements.txt
 
-COPY . / Proyectos-Python/
+COPY . /Proyectos-Python
 
-CMD bash -c "while true; do sleep 1; done"
+CMD ["uvicorn", "main:app", "--host", "0.0.0.0", "--port", "80"]

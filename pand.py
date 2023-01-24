@@ -6,9 +6,9 @@ def generate_pie_chart(labels, values):
     ax.pie(values, labels=labels)
     ax.axis("equal")
     plt.show()
-def get_categories():
-    df = pd.read_csv("read.csv")
-    countries = df["Country/Territory"].values
-    percentages = df["World Population Percentage"].values
-    generate_pie_chart(countries, percentages)
+
+df = pd.read_csv("read.csv")
+countries = df["Country/Territory"].values
+percentages = df["World Population Percentage"].values
+generate_pie_chart(countries, percentages)
 

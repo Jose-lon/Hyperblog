@@ -1,5 +1,9 @@
 services:
-  app-csv:
+  csv-app:
     build:
       context: .
-      dockerfile: Dockerfile
+      dockerfile: dockerfile
+    volumes:
+      - .:/Proyectos-Python
+    ports:
+     - "80:80"
