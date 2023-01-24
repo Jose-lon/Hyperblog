@@ -1,6 +1,5 @@
-
-set_countries = {"col","mex","bol","col"}
 '''
+set_countries = {"col","mex","bol","col"}
 #set_countries = set("col","mex","bol","col")
 print(set_countries)
 print(type(set_countries))
@@ -10,17 +9,13 @@ set_countries.remove("col")
 set_countries.discard("ar")
 #set_countries.clear()
 print(set_countries)
-'''
 set_countries2 = {"col","usa","sui","bol"}
-'''
 set_3 = set_countries.union(set_countries2)
 set_4 = set_countries | set_countries2
 print(set_3 == set_4)
-'''
 set_5 = set_countries.intersection(set_countries2)
 set_6 = set_countries & set_countries2
-print(set_5 )
-'''
+print(set_5 == set_6)
 set_7 = set_countries.difference(set_countries2)
 set_8 = set_countries - set_countries2
 print(set_7 == set_8)
