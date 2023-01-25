@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Created by https://www.toptal.com/developers/gitignore/api/windows,linux,macos,python
 # Edit at https://www.toptal.com/developers/gitignore?templates=windows,linux,macos,python
 
@@ -245,3 +246,6 @@ $RECYCLE.BIN/
 *.lnk
 
 # End of https://www.toptal.com/developers/gitignore/api/windows,linux,macos,python
+=======
+*.jpg
+>>>>>>> c3fae8690a20a562b35db4671af0af606d96316c
