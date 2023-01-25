@@ -28,3 +28,23 @@ def generate_pie_chart(labels, values):
     plt.show()
 generate_pie_chart(names, total)
 print({"Nicolas","miguel","Nicolas"})
+
+
+#format(variable,".2g")
+#text.startswith("")
+#text.swapcase()
+#text.title()
+#text.isdigit()
+# variable in list
+# list.insert(position, value)
+# list.sort()
+#text.upper()
+#text.strip()
+#number.round()
+#dicci.keys()
+#dicci.values()
+#dicci.items()
+#random.choice()
+#requests.get(URL)
+# r.status_code
+# r.text
